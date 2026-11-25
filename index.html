@@ -14,7 +14,7 @@ h1{font-size:clamp(26px,4vw,38px);line-height:1.15;margin:0 0 8px;color:var(--gr
 .controls{display:grid;grid-template-columns:minmax(220px,1.5fr) minmax(180px,1fr);gap:14px;align-items:end;margin-bottom:16px}
 label{display:block;font-size:13px;font-weight:700;margin:0 0 6px}
 input,select{width:100%;min-height:46px;border:1px solid #aebdb2;border-radius:6px;padding:10px 12px;font:inherit;background:#fff;color:var(--ink)}
-input:focus,select:focus,button:focus-visible{outline:3px solid #a8c9ae;outline-offset:2px}
+input:focus,select:focus{outline:none;box-shadow:none}
 .filters{display:flex;flex-wrap:wrap;gap:9px;margin:0 0 16px}
 .filters button{border:1px solid var(--green);border-radius:22px;background:#fff;color:var(--green);padding:9px 17px;font-weight:700;cursor:pointer}
 .filters button[aria-pressed="true"]{background:var(--green);color:#fff}
